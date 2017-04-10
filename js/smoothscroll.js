@@ -9,7 +9,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
     // animate
     $('html, body').animate({
-        scrollTop: $(hash).offset().top -50 // negative offset fix
+        scrollTop: $(hash).offset().top - 50 // negative offset fix
     }, 500, function() {
 
         // when done, add hash to url
@@ -30,7 +30,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
     // animate
     $('html, body').animate({
-        scrollTop: $(hash).offset().top -50 // negative offset fix
+        scrollTop: $(hash).offset().top - 50 // negative offset fix
     }, 500, function() {
 
         // when done, add hash to url
@@ -51,7 +51,7 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
 
     // animate
     $('html, body').animate({
-        scrollTop: $(hash).offset().top -50 // negative offset fix
+        scrollTop: $(hash).offset().top - 50 // negative offset fix
     }, 500, function() {
 
         // when done, add hash to url
