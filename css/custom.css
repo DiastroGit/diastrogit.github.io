@@ -31,6 +31,17 @@ footer {
     background-color: #f5f5f5;
 }
 
+/* Back to top button stays in the bottom right */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#back-to-top a {
+    color: #333;
+}
+
 .jumbotron {
     text-align: center;
     color: white;
@@ -49,8 +60,33 @@ footer {
     font-weight: lighter;
 }
 
+.modal-dialog {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -173px;
+}
+
+.modal-content iframe {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.modal-content button.close {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 28px;
+    background-color: white;
+    width: 40px;
+    opacity: 1;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
 .btn-lg {
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .homepage {
